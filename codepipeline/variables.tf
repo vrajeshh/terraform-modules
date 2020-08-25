@@ -1,11 +1,11 @@
 variable "owner" {
   description = "owner of github repo"
-  default     = "rohankadu"
+  default     = "XXXXXXX"
 }
 
 variable "repo" {
   description = "github repository name"
-  default     = "aws-test"
+  default     = "XXXXXXX"
 }
 
 variable "branch" {
@@ -14,7 +14,7 @@ variable "branch" {
 }
 
 variable "github_token" {
-  default = "1d0d08fbf13b3cada81e58e96ece7632505328d8"
+  default = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
 
 variable "s3_bucket" {
@@ -26,7 +26,7 @@ variable "codepipeline_role" {
 }
 
 variable "account_id" {
-  default = "700738850588"
+  default = "XXXXXXXXX"
 }
 
 variable "env" {
