@@ -4,9 +4,6 @@ variable "s3_bucket" {
 variable "project_name" {
 }
 
-#variable "s3bucket_arn" {
-#}
-
 variable "vpc_id" {
   description = "default vpc id for codebuild config"
   default     = "XXXXXXXX"
