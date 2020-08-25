@@ -9,27 +9,27 @@ variable "project_name" {
 
 variable "vpc_id" {
   description = "default vpc id for codebuild config"
-  default     = "vpc-85eeb1ff"
+  default     = "XXXXXXXX"
 }
 
 variable "subnet1_id" {
   description = "subnet 1 id for codebuild config"
-  default    = "subnet-43e6340e"
+  default    = "XXXXXXXXX"
 }
 
 variable "subnet2_id" {
   description = "subnet 2 id for codebuild config"
-  default     = "subnet-bec8c7e2"
+  default     = "XXXXXXXX"
 }
 
 variable "sg1_id" {
   description = "security group id"
-  default     = "sg-02d5de41f523756aa"
+  default     = "XXXXXXXX"
 }
 
 variable "sg2_id" {
   description = "security group id"
-  default     = "sg-0384ca6feda2a600c"
+  default     = "XXXXXXXX"
 }
 
 variable "codebuild_role" {
@@ -40,5 +40,5 @@ variable "env" {
 }
 
 variable "account_id" {
-  default = "700738850588"
+  default = "XXXXXXXXX"
 }
