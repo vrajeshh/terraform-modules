@@ -13,7 +13,7 @@ variable "tags" {
 
 variable "account_id" {
   description = "aws account id"
-  default     = "700738850588"
+  default     = "XXXXXXXXXXX"
 }
 
 variable "env" {
