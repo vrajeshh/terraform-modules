@@ -4,7 +4,7 @@ variable "region" {
 
 variable "codepipeline_bucket" {
   description = "aws codepipeline bucket name"
-  default     = "stomp-tf-test-rk"
+  default     = "XXXXXXXXXXXX"
 }
 
 variable "tags" {
@@ -23,5 +23,5 @@ variable "env" {
 
 variable "project_name" {
   description = "pipeline project name"
-  default     = "stomp"
+  default     = "XXXXX"
 }
